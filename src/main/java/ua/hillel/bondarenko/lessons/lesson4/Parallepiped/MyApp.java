@@ -2,23 +2,17 @@ package ua.hillel.bondarenko.lessons.lesson4.Parallepiped;
 
 public class MyApp {
     public static void main(String[] args) {
-        int PowerLi;
-        int LiWarrior = 13;
-        int Liarcher = 24;
-        int LiRider = 46;
-        double PowerMin;
-        int MinWarrior = 9;
-        int Minarcher = 35;
-        int MinRider = 12;
-        int NumberOfWarriorsLi = 860;
-        double NumberOfWarriorsMin = 860 * 1.5;
 
-        PowerLi = ((LiWarrior*NumberOfWarriorsLi)+(Liarcher*NumberOfWarriorsLi)+(LiRider*NumberOfWarriorsLi));
-        PowerMin =((MinWarrior*NumberOfWarriorsMin)+(Minarcher*NumberOfWarriorsMin)+(MinRider*NumberOfWarriorsMin));
+            int a = 7;
+            int b = 4;
+            int c = 4;
 
-        System.out.println("Загальна атака Лі = "+ PowerLi);
-        System.out.println("Загальна атака Мінь = "+ PowerMin);
 
+            double volume = a * b * c;
+            double length = ((a +b +c)*4);
+            System.out.println("Cумма длинн всех рёбер прямоугольного параллелепипеда" + length);
+            System.out.println("Объём паралеллепипеда = " + volume);
+        }
 
     }
-}
+
