@@ -13,19 +13,19 @@ public class MyApp {
 
 
         System.out.println("Введите количество фрагов " + nameCommand1 + " Игрок 1 ");
-        int command1Player1 = sc.nextInt();
+        double command1Player1 = sc.nextInt();
         System.out.println(nameCommand1 + " Игрок 1 количество фрагов = " + command1Player1);
         System.out.println("Введите количество фрагов " + nameCommand1 + " Игрок 2 ");
-        int command1Player2 = sc.nextInt();
+        double command1Player2 = sc.nextInt();
         System.out.println(nameCommand1 + " Игрок 2 количество фрагов = " + command1Player2);
         System.out.println("Введите количество фрагов " + nameCommand1 + " Игрок 3 ");
-        int command1Player3 = sc.nextInt();
+        double command1Player3 = sc.nextInt();
         System.out.println(nameCommand1 + " Игрок 3 количество фрагов = " + command1Player3);
         System.out.println("Введите количество фрагов " + nameCommand1 + " Игрок 4 ");
-        int command1Player4 = sc.nextInt();
+        double command1Player4 = sc.nextInt();
         System.out.println(nameCommand1 + " Игрок 4 количество фрагов = " + command1Player4);
         System.out.println("Введите количество фрагов " + nameCommand1 + " Игрок 5 ");
-        int command1Player5 = sc.nextInt();
+        double command1Player5 = sc.nextInt();
         System.out.println(nameCommand1 + " Игрок 5 количество фрагов = " + command1Player5);
 
         sc.nextLine();
@@ -35,19 +35,19 @@ public class MyApp {
         System.out.println("Вторая команда = " + nameCommand2);
 
         System.out.println("Введите количество фрагов " + nameCommand2 + " Игрок 1 ");
-        int command2Player1 = sc.nextInt();
+        double command2Player1 = sc.nextInt();
         System.out.println(nameCommand2 + " Игрок 1 количество фрагов = " + command2Player1);
         System.out.println("Введите количество фрагов " + nameCommand2 + " Игрок 2 ");
-        int command2Player2 = sc.nextInt();
+        double command2Player2 = sc.nextInt();
         System.out.println(nameCommand2 + " Игрок 2 количество фрагов = " + command2Player2);
         System.out.println("Введите количество фрагов " + nameCommand2 + " Игрок 3 ");
-        int command2Player3 = sc.nextInt();
+        double command2Player3 = sc.nextInt();
         System.out.println(nameCommand2 + " Игрок 3 количество фрагов = " + command2Player3);
         System.out.println("Введите количество фрагов " + nameCommand2 + " Игрок 4 ");
-        int command2Player4 = sc.nextInt();
+        double command2Player4 = sc.nextInt();
         System.out.println(nameCommand2 + " Игрок 4 количество фрагов = " + command2Player4);
         System.out.println("Введите количество фрагов " + nameCommand2 + " Игрок 5 ");
-        int command2Player5 = sc.nextInt();
+        double command2Player5 = sc.nextInt();
         System.out.println(nameCommand2 + " Игрок 5 количество фрагов = " + command2Player5);
         sc.nextLine();
 
@@ -59,11 +59,11 @@ public class MyApp {
         String teamName;
         if (averageCommand1 > averageCommand2) {
             teamName = nameCommand1;
-            int result = command1Player1 + command1Player2 + command1Player3 + command1Player4 + command1Player5;
+            double result = command1Player1 + command1Player2 + command1Player3 + command1Player4 + command1Player5;
             System.out.println("Победила команда" + teamName + " набрала " + result + " очків ");
 
         } else if (averageCommand1 < averageCommand2) {
-            int result = command2Player1 + command2Player2 + command2Player3 + command2Player4 + command2Player5;
+            double result = command2Player1 + command2Player2 + command2Player3 + command2Player4 + command2Player5;
             teamName = nameCommand2;
             System.out.println("Победила команда" + teamName + " набрала " + result + " очків ");
         } else if (averageCommand1 == averageCommand2) {
