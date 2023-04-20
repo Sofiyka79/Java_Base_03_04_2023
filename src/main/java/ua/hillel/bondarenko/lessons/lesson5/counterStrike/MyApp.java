@@ -1,8 +1,9 @@
-package ua.hillel.bondarenko.lessons.lesson5;
+package ua.hillel.bondarenko.lessons.lesson5.counterStrike;
 
 import java.util.Scanner;
 
 public class MyApp {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
