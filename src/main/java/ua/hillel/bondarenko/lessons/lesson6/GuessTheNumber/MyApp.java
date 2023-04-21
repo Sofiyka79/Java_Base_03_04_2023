@@ -27,19 +27,16 @@ public class MyApp {
                 while (true) {
                     if (scanner.hasNextInt()) {
                         userValue = scanner.nextInt();
-                        if (userValue == random) {
-                            System.out.println("Вы угадали = " + userValue);
-                            break;
-
-                        }
                         break;
-
                     } else {
-                            scanner.nextLine();
-                            System.out.println("Введите пожалуйста число!");
-                      }
+                        scanner.nextLine();
+                        System.out.println("Введите пожалуйста число!");
+                    }
+                }
                         //scanner.nextLine();
-
+                if (userValue == random) {
+                    System.out.println("Вы угадали = " + userValue);
+                    break;
                 }
 
             }
