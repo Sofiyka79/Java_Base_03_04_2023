@@ -13,20 +13,20 @@ public class MyApp {
         int random = (int) (Math.random() * 11);
         System.out.println("random = " + random);
         System.out.println("Угадайте целое число от 0 до 10, которое загадал компьютер у Вас есть 3 попытки");
+        int userValue = 0;
 
+        for (int i = 0; i <3 ; i++) {
 
-        for (int i = 1; i <= 4; i++) {
-
-            if (i < 4) {
-
-                System.out.println("Попытка " + i);
+            if (i < 3) {
+                int pop = i+1;
+                System.out.println("Попытка " + pop);
 
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Угадайте число от 0 до 10, которое загадал компьютер");
 
                 while (true) {
                     if (scanner.hasNextInt()) {
-                        int userValue = scanner.nextInt();
+                        userValue = scanner.nextInt();
                         if (userValue == random) {
                             System.out.println("Вы угадали = " + userValue);
                             break;

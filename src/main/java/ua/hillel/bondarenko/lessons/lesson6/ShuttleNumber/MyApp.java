@@ -9,14 +9,16 @@ public class MyApp {
         int sum=100;
 
         for (int i = 1; i <= sum; i++) {
-            if ((i == 4 || i==9 || i/10 ==4 || i/10 == 9 || (i%10==9) || i%10==4 )) {
+            if ((i == 4 || i==9 || i/10 ==4 || i/10 == 9 || (i%10==9) || i%10==4 || ((i-100)/10)==4 || ((i-100)/10)==9 )) {
                 sum = sum+1;
                 continue;
 
 
         }
             System.out.println(i);
+            int d = ((i-100)/10);
 
+            System.out.println(d);
 
         }
 
