@@ -7,10 +7,10 @@ package ua.hillel.bondarenko.lessons.lesson6.ShuttleNumber;
 public class MyApp {
     public static void main(String[] args) {
         int sum=100;
-        int hundred;
+
 
         for (int i = 1; i <= sum; i++) {
-            if ((i == 4 || i==9 || i/10 ==4 || i/10 == 9 || (i%10==9) || i%10==4 || (i/100)==4 || ((i/100)==9 )||(i%100)==4 || ((i%100)==9) ||((i%1000)==4) || ((i%1000)==9)|| ((i%1000)==4) || ((i%1000)==9) || ((i/10)%10 == 4) || ((i/10)%10 == 9 ) )){
+            if ((i == 4 || i==9 || i/10 ==4 || i/10 == 9 || (i%10==9) || i%10==4 || (i/100)==4 || ((i/100)==9 )||(i%100)==4 || ((i%100)==9) || ((i/10)%10 == 4) || ((i/10)%10 == 9 ) )){
                 sum = sum+1;
 
                 continue;
