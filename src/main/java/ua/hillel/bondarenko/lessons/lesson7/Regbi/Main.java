@@ -51,6 +51,7 @@ public class Main {
 
 
 
+
         if (avgTeam1 > avgTeam2) {
             System.out.println("TEAM 1 Старше");
         }  if (avgTeam1 < avgTeam2) {
