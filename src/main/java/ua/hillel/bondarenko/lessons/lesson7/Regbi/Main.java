@@ -42,14 +42,15 @@ public class Main {
         System.out.println(Arrays.toString((command1)));
         System.out.println(Arrays.toString((command2)));
 
-        System.out.println("sumTeam1" + sumTeam1);
-        System.out.println("sumTeam2" + sumTeam2);
+        System.out.println("sumTeam1 = " + sumTeam1);
+        System.out.println("sumTeam2 = " + sumTeam2);
 
 
         avgTeam1 = sumTeam1/command1.length;
-        avgTeam2 = sumTeam1/command2.length;
+        avgTeam2 = sumTeam2/command2.length;
 
-
+        System.out.println("avg1 = " + avgTeam1);
+        System.out.println("avg2 = " + avgTeam2);
 
 
         if (avgTeam1 > avgTeam2) {
