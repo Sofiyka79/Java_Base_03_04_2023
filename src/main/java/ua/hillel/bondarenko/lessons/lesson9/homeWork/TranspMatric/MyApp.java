@@ -14,10 +14,12 @@ public class MyApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Введите N ");
-        Integer n = sc.nextInt();
+        int n = sc.nextInt();
         System.out.println("Введите M ");
-        Integer m = sc.nextInt();
+        int m = sc.nextInt();
 
+        if ((n % 1 == 0)&&(m % 1 == 0)&&(n>0)&&(m>0)) {
+            System.out.println("Число является целым.");
 
 
         int [][] matrix1 = new int [n][m];
@@ -41,6 +43,10 @@ public class MyApp {
 
             }
             System.out.println();
+        }
+
+        } else {
+            System.out.println("Число не является целым или меньше нуля");
         }
     }
 }
