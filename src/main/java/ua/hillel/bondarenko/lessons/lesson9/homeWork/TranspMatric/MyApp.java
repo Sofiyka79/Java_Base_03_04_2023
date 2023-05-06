@@ -36,7 +36,7 @@ public class MyApp {
   //      System.out.println();
 
 
-        int [][] matrix2 = new int [n][m];
+        int [][] matrix2 = new int [m][n];
 
         for (int i=0; i< matrix2.length; i++){
             for (int j=0;j < matrix2[i].length; j++){
