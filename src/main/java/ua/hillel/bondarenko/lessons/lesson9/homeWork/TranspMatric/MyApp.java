@@ -11,6 +11,7 @@ public class MyApp {
         for (int i=0; i< matrix1.length; i++){
             for (int j=0;j < matrix1.length; j++){
                 System.out.println(matrix1[i][j]+"\t");
+
             }
         }
     }
