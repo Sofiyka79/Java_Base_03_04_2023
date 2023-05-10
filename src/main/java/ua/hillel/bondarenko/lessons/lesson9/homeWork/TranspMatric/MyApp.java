@@ -14,9 +14,28 @@ public class MyApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Введите N ");
-        int n = sc.nextInt();
+        int n ;
+        while (true) {
+            if (sc.hasNextInt()) {
+                n = sc.nextInt();
+                break;
+            } else {
+                sc.nextLine();
+                System.out.println("Введите пожалуйста число!");
+            }
+        }
         System.out.println("Введите M ");
-        int m = sc.nextInt();
+        int m ;
+
+        while (true) {
+            if (sc.hasNextInt()) {
+                m = sc.nextInt();
+                break;
+            } else {
+                sc.nextLine();
+                System.out.println("Введите пожалуйста число!");
+            }
+        }
 
         if ((n % 1 == 0)&&(m % 1 == 0)&&(n>0)&&(m>0)) {
             System.out.println("Число является целым.");
@@ -29,7 +48,7 @@ public class MyApp {
             for (int j=0;j < matrix1[i].length; j++){
                 matrix1[i][j]= (int) (Math.random()*101);
             }
-            System.out.println();
+
         }
 
             for (int i=0; i< matrix1.length; i++){
@@ -39,13 +58,13 @@ public class MyApp {
                 System.out.println();
             }
 
-        for (int i=0; i< matrix1.length; i++){
-            for (int j=0;j < matrix1[i].length; j++){
-               int temp = matrix1[i][j];
+        for (int i=0; i< matrix2.length; i++){
+            for (int j=0;j < matrix2[i].length; j++){
+
                matrix2[i][j]=matrix1[j][i];
-               matrix2[j][i]=temp;
+
             }
-            System.out.println();
+
 
         }
             System.out.println("After");
