@@ -7,6 +7,7 @@ public class Main {
 //        Person oleg = new Person();
 
 //        alex.name = "Alex";
+
 //        alex.age = 30;
 
 //        oleg.name = "Oleg";
