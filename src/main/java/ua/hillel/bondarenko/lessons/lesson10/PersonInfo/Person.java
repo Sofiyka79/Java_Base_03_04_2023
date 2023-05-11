@@ -13,10 +13,10 @@ import java.sql.SQLOutput;
 //Зателефонувати громадянинові Jackie Chan з міста Shanghai можна за номером 12312412412.
 //Зателефонувати до громадян Sherlock Holmes з міста London можна за номером 37742123513.
 public class Person {
-     static String PersonInfo(String name, String surname, String city, Integer Number) {
+ //    static String PersonInfo(String name, String surname, String city, Integer Number) {
 
-         System.out.println("Зателефонувати громадянину" + +"ІМ'Я ПРІЗВИЩЕ"+name + "із міста" + "МІСТО можна за номером" + city + "ТЕЛЕФОН"+ Number);
-         String info;
-         return info;
-    }
+         //    Integer  System.out.println("Зателефонувати громадянину" + +"ІМ'Я ПРІЗВИЩЕ"+name + "із міста" + "МІСТО можна за номером" + city + "ТЕЛЕФОН"+ Number);
+         //     String info;
+         //     return info;
+   //  }
 }
