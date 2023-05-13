@@ -24,7 +24,7 @@ public class Person{
 
         static void personInfo (String name, String surname, String city, String number) {
 
-         System.out.println("Зателефонувати громадянину ІМЯ ПРІЗВИЩЕ" + name + surname + "із міста" + "МІСТО можна за номером" + city + "ТЕЛЕФОН" + number);
+         System.out.println("Зателефонувати громадянину ІМЯ ПРІЗВИЩЕ  " + name + surname + " із міста " + " МІСТО можна за номером " + city + " ТЕЛЕФОН: " + number);
 
         }
 }
