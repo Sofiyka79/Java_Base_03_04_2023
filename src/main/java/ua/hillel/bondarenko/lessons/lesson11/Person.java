@@ -32,6 +32,12 @@ public class Person {
         name.toUpperCase();
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
 }
