@@ -24,7 +24,7 @@ public class Burger {
         this.cheese = cheese;
         this.salad = salad;
 
-        System.out.println("звичайний бургер (усі компоненти) булочка, м'ясо, сир, зелень, майонез");
+        System.out.println("Звичайний бургер (усі компоненти) булочка, м'ясо, сир, зелень, майонез");
     }
 
     public Burger(boolean meat, boolean bun, boolean mayo, boolean duoMeat, boolean cheese, boolean salad) {
