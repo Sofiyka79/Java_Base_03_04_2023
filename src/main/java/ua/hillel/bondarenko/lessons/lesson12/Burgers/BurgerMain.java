@@ -15,9 +15,13 @@ package ua.hillel.bondarenko.lessons.lesson12.Burgers;
 // бургери. Їхній склад буде автоматично виводитися на
 // екран під час запуску програми.
 public class BurgerMain {
+
+    public static void main(String[] args) {
+
+
     Burger diet = new Burger(true,true,true,true);
 
     Burger ordinary = new Burger(true,true,true,true,true);
-    Burger duoMeat = new Burger(true,true,true,true,true);
-
+    Burger duoMeat = new Burger(true,true,true,true,true, true);
+    }
 }
