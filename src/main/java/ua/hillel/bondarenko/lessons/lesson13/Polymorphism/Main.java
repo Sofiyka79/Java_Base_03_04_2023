@@ -1,7 +1,5 @@
 package ua.hillel.bondarenko.lessons.lesson13.Polymorphism;
 
-import ua.hillel.bondarenko.lessons.lesson13.Polymorphism.MusicStyles;
-
 //Зробіть клас MusicStyles, який міститиме метод playMusic()
 //Зробіть його спадкоємців: PopMusic, RockMusic і ClassicMusic.
 //Спадкоємці повинні реалізовувати метод playMusic().
@@ -9,6 +7,7 @@ import ua.hillel.bondarenko.lessons.lesson13.Polymorphism.MusicStyles;
 //За допомогою методу for each викличте у всіх спадкоємців MusicStyles метод playMusic()
 public class Main {
     public static void main(String[] args) {
+
       MusicStyles[] musicStyles ={
               new PopMusic("Pink- Cover Me In Sunshine "),
               new RockMusic("Scorpions - Still Loving You"),
@@ -16,12 +15,10 @@ public class Main {
       };
 
         for (MusicStyles musicStyle : musicStyles) {
-            MusicStyles.playMusic();
+            MusicStyles.playMusic(musicStyle);
         }
 
-//        PopMusic.playMusic();
-//        RockMusic.playMusic();
-//        ClassicMusic.playMusic();
+
 
 
 

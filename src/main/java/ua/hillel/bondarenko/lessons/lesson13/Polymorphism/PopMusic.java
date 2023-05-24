@@ -7,6 +7,9 @@ public class PopMusic extends MusicStyles{
         super(name);
     }
 
+
+
+
     @Override
     public void playMusic(MusicStyles musicStyles) {
         System.out.println();
