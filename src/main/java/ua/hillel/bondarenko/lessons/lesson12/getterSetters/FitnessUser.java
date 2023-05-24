@@ -1,13 +1,13 @@
 package ua.hillel.bondarenko.lessons.lesson12.getterSetters;
 
 public class FitnessUser {
-    private  String name;
+    private final String name;
     private String surname;
-    private int birthdayDay;
-    private int birthdayMounth;
-    private int birthdayYear;
-    private String number;
-    private String email;
+    private final int birthdayDay;
+    private final int birthdayMounth;
+    private final int birthdayYear;
+    private final String number;
+    private final String email;
     private Integer age;
     private Integer weight;
     private String pressure;
