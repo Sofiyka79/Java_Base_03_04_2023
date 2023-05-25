@@ -14,18 +14,18 @@ package ua.hillel.bondarenko.lessons.lesson10.PersonInfo;
 public class Person{
     public static void main(String[] args) {
 
-        personInfo("Will", "Smith", "New York", "2936729462846");
+        System.out.println(personInfo("Will", "Smith", "New York", "2936729462846"));
 
-        personInfo("Jackie", "Chan", "Shanghai", "12312412412");
+        System.out.println(personInfo("Jackie", "Chan", "Shanghai", "12312412412"));
 
-       personInfo("Sherlock", "Holmes", "London", "37742123513");
+        System.out.println(personInfo("Sherlock", "Holmes", "London", "37742123513"));
     }
 
 
-        static void personInfo (String name, String surname, String city, String number) {
+       static String personInfo (String name, String surname, String city, String number) {
 
-         System.out.println("Зателефонувати громадянину ІМЯ ПРІЗВИЩЕ  " + name + surname + " із міста " + " МІСТО можна за номером " + city + " ТЕЛЕФОН: " + number);
-
+         //System.out.println("Зателефонувати громадянину ІМЯ ПРІЗВИЩЕ  " + name + surname + " із міста " + " МІСТО можна за номером " + city + " ТЕЛЕФОН: " + number);
+     return "Зателефонувати громадянину ІМЯ ПРІЗВИЩЕ  "+ name + surname + " із міста " +" МІСТО можна за номером "  + city + " ТЕЛЕФОН: " + number;
         }
 }
 
