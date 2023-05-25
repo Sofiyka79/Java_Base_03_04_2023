@@ -17,11 +17,5 @@ public class Main {
         for (MusicStyles musicStyle : musicStyles) {
         musicStyle.playMusic(musicStyle);
         }
-
-
-
-
-
-
     }
 }

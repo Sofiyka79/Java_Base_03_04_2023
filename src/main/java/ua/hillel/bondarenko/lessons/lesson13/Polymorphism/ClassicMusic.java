@@ -7,7 +7,6 @@ public class ClassicMusic extends MusicStyles{
         super(name);
     }
 
-
     @Override
     public void playMusic(MusicStyles musicStyles) {
         System.out.println(musicStyles.getName()+" play Classic ");

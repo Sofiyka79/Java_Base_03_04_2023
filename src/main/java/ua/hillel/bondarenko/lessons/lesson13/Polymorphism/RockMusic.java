@@ -6,7 +6,6 @@ public class RockMusic extends MusicStyles{
         super(name);
     }
 
-
     @Override
     public void playMusic(MusicStyles musicStyles) {
 

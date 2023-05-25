@@ -13,7 +13,6 @@ package ua.hillel.bondarenko.lessons.lesson13.Polymorphism;
             return name;
         }
 
-
         public void playMusic(MusicStyles musicStyle) {
         }
     }
