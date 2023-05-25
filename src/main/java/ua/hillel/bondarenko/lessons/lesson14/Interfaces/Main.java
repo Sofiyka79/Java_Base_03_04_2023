@@ -15,6 +15,9 @@ public class Main {
         androids.sms();
         androids.internet();
 
+        androids.versionLinuxOS();
+        iphones.versionIOS();
+
 
 
     }

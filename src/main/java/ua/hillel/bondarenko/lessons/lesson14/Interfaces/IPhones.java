@@ -16,4 +16,10 @@ public class IPhones implements Smartphones, IOS {
     public void internet() {
         System.out.println("Iphone internet");
     }
+
+
+    @Override
+    public void versionIOS() {
+        System.out.println("Version IOS");
+    }
 }

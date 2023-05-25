@@ -15,4 +15,9 @@ public class Androids implements Smartphones, LinuxOS{
     public void internet() {
         System.out.println("Android internet");
     }
+
+    @Override
+    public void versionLinuxOS() {
+        System.out.println("Version LinuxOS");
+    }
 }
