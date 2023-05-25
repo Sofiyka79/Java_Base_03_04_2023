@@ -1,14 +1,14 @@
 package ua.hillel.bondarenko.lessons.lesson12.Burgers;
 
 public class Burger {
-    boolean meat;
-    boolean bun;
+    String meat;
+    String bun;
     boolean mayo;
     boolean duoMeat;
-    boolean cheese;
-    boolean salad;
+    String cheese;
+    String salad;
 
-    public Burger(boolean meat, boolean bun, boolean cheese, boolean salad) {
+    public Burger(String meat, String bun, String cheese, String  salad) {
         this.meat = meat;
         this.bun = bun;
         this.cheese = cheese;
@@ -17,7 +17,7 @@ public class Burger {
         System.out.println("Дієтичний бургер (без майонезу) булочка, м'ясо, сир, зелень" );
     }
 
-    public Burger(boolean meat, boolean bun, boolean mayo, boolean cheese, boolean salad) {
+    public Burger( String meat, String bun, Boolean mayo, String cheese, String salad) {
         this.meat = meat;
         this.bun = bun;
         this.mayo = mayo;
@@ -27,7 +27,7 @@ public class Burger {
         System.out.println("Звичайний бургер (усі компоненти) булочка, м'ясо, сир, зелень, майонез");
     }
 
-    public Burger(boolean meat, boolean bun, boolean mayo, boolean duoMeat, boolean cheese, boolean salad) {
+    public Burger(String meat, String bun, boolean mayo, boolean duoMeat, String cheese, String salad) {
         this.meat = meat;
         this.bun = bun;
         this.mayo = mayo;

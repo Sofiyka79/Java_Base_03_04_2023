@@ -19,9 +19,9 @@ public class BurgerMain {
     public static void main(String[] args) {
 
 
-    Burger diet = new Burger(true,true,true,true);
+    Burger diet = new Burger("Meat","Bun","Cheese", "Salad");
 
-    Burger ordinary = new Burger(true,true,true,true,true);
-    Burger duoMeat = new Burger(true,true,true,true,true, true);
+    Burger ordinary = new Burger("Meat","Bun",true,"Cheese","Salad");
+    Burger duoMeat = new Burger("Meat","Bun",true,true,"Cheese", "Salad");
     }
 }
