@@ -1,5 +1,13 @@
 package ua.hillel.bondarenko.lessons.lesson16;
 
-public class DrinksMachine {
+public enum DrinksMachine {
+    KAVA,
+    TEA,
+    LIMONADE,
+    MOJITO,
+    MINERAL,
+    COCA_COLA;
+
+
 
 }
