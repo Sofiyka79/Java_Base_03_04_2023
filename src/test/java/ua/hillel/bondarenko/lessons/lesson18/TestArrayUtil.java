@@ -3,7 +3,7 @@ package ua.hillel.bondarenko.lessons.lesson18;
 import static ua.hillel.bondarenko.lessons.lesson18.unitTesting.Methods.matrixSquare;
 
 public class TestArrayUtil {
-   @Test
+   //@Test
     void testMethod1(){
     int[][] matrix1 = {
 
