@@ -16,9 +16,7 @@ public class Main {
             double avg = average(arr);
             System.out.println("Среднее арифметическое: " + avg);
 
-            int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-            boolean isSquare = matrixSquare(matrix);
-            System.out.println("Квадратная матрица: " + isSquare);
+
 
 
 
