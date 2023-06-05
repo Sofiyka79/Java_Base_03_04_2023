@@ -13,8 +13,17 @@ public class Methods {
     }
 
     public static boolean matrixSquare(int[][] matrix) {
+
+        if (matrix == null) {
+            return false;
+        }
+
+
         int rows = matrix.length;
         int cols = matrix[0].length;
+
+
+
         if (rows != cols) {
             return false;
         }

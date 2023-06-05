@@ -3,7 +3,7 @@ package ua.hillel.bondarenko.lessons.lesson18;
 import static ua.hillel.bondarenko.lessons.lesson18.unitTesting.Methods.matrixSquare;
 
 public class TestArrayUtil {
-    @Test
+   @Test
     void testMethod1(){
     int[][] matrix1 = {
             {1, 2, 3},
@@ -13,10 +13,12 @@ public class TestArrayUtil {
 
     boolean isSquare = matrixSquare(matrix1);
     System.out.println("Квадратная матрица: " + isSquare);
+
+
 }
 
 
     }
 
 
-}
+
